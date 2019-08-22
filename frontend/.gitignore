@@ -1,0 +1,83 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ficheiros gerados pelo servidor, temporários
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# diretoria da ferramenta jscoverage/JSCover
+lib-cov
+
+# diretoria de ferramentas como o istanbul
+coverage
+
+# diretoria de respostas de testes de alguns programas
+.nyc_output
+
+# ficheiro temporário do Grunt
+.grunt
+
+# diretoria da ferramenta Bower
+bower_components
+
+# ficheiro de configuração de node-waf
+.lock-wscript
+
+# diretoria de ficheiros compilados (isto depende de que nome dás às pastas e se queres ou não ter ficheiros de release no Github)
+build/Release
+
+# Dependências
+node_modules/
+jspm_packages/
+
+# diretoria da ferramenta typescript
+typings/
+
+# diretoria da npm opcional
+.npm
+
+# diretoria do eslint opcional
+.eslintcache
+
+# log/hitoria de REPL
+.node_repl_history
+
+# Resultado de comprimir com 'npm pack'
+*.tgz
+
+# Verificador de integridade do Yarn
+.yarn-integrity
+
+# variáveis do ambiente 
+.env
